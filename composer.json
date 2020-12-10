@@ -1,0 +1,15 @@
+{
+    "name": "binhua/composer-test",
+    "description": "这是一个composer工具包",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "daibinhua",
+            "email": "dbinhua@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Micro\\": "src/"}
+    }
+}
